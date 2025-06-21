@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>myzstral - identity</title>
+<style>
+  @font-face {
+    font-family: 'VCR OSD Mono';
+    src: url('./fonts/VCR_OSD_MONO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /* Reset and base */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #000;
+    color: #eee;
+    font-family: 'VCR OSD Mono', monospace, monospace;
+    line-height: 1.5;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+  }
+  .container {
+    max-width: 700px;
+    width: 100%;
+    border: 2px solid #eee;
+    padding: 2rem 3rem;
+    background: #000;
+  }
+
+  h1, h2 {
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.25rem;
+    text-transform: uppercase;
+    color: #ccc;
+  }
+  pre {
+    background: transparent;
+    border: none;
+    font-family: 'VCR OSD Mono', monospace, monospace;
+    font-size: 1rem;
+    color: #eee;
+    padding-left: 0.5rem;
+    white-space: pre-wrap;
+    line-height: 1.4;
+  }
+  /* Divider line between sections */
+  .divider {
+    border-top: 1px solid #333;
+    margin: 2rem 0 1rem;
+  }
+
+  /* Links in contact */
+  a {
+    color: #eee;
+    text-decoration: none;
+    border-bottom: 1px dotted #eee;
+  }
+  a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  /* Responsive */
+  @media (max-width: 480px) {
+    .container {
+      padding: 1.5rem 1.5rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+</style>
+</head>
+<body>
+  <section class="container" aria-label="User identity and contact information">
+    <h1>/home/myzstral/.identity</h1>
+
+    <h2>USER</h2>
+    <pre><code>USER:        myzstral
+TYPE:        programmer // gamer
+PRONOUNS:    he/him
+LOCATION:    archlinux@thinkpad
+</code></pre>
+
+    <div class="divider"></div>
+
+    <h2>SYSTEM</h2>
+    <pre><code>editor:      vscode
+shell:       zsh
+os:          arch linux
+cpu:         intel i5-4300M
+graphics:    hd 4600 (integrated)
+device:      lenovo thinkpad (2014)
+languages:   javascript · java · rust
+</code></pre>
+
+    <div class="divider"></div>
+
+    <h2>PHILOSOPHY</h2>
+    <pre><code>all code is war.
+silence is speed.
+clean is faster than clever.
+visibility is a weakness.
+</code></pre>
+
+    <div class="divider"></div>
+
+    <h2>CONTACT</h2>
+    <pre><code>discord:     @myzstral
+github:      myzstral
+reddit:      u/myzstral
+other:       [REDACTED]
+</code></pre>
+  </section>
+</body>
+</html>
+
